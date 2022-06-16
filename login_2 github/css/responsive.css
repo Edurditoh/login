@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px){
+    .container{
+        width: 320px;      
+    }    
+}
+
+@media only screen and (max-height: 600px){
+    .container{
+        width: 400px; 
+        height: 350px;
+        min-height: 30%;  
+    }
+    .form-control{       
+       margin-top: -8%;
+    }
+    .form button {
+      margin-top: -12px;
+      width: 30%;
+      font-size: 15px;
+      margin-left: 100px;
+      background-color: transparent;
+      border: none;
+}
+.form button:hover{
+    background-color:transparent;
+}
+.form-control label {
+    visibility: hidden;
+}
+
+
+}
+
+@media only screen and (max-width: 320px){
+    .container{
+        width: 300px;           
+    }
+
+    .form button{
+        background-color: transparent;
+        border: none;
+        margin-top: -8%;        
+        background-color: transparent;    
+    }
+    .form button:hover{
+        background-color:transparent;
+    }
+   
+}
+
+@media only screen and (max-height: 320px){
+    .container{         
+        height: 300px;
+        min-height: 5%   
+            
+    }
+    .form-control{       
+        margin-top: -12%;
+     }
+     .form button {
+ margin-top: 10px;
+ width: 30%;
+ font-size: 15px;
+ margin-left: 100px;
+ 
+ background-color: transparent;
+ border: none;
+ margin-top: -4%; 
+ }
+ .form button:hover{
+    background-color:transparent;
+}
+ .form-control label {
+     visibility: hidden;
+ }
+}
+  

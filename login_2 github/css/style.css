@@ -1,0 +1,190 @@
+@import url(sys/Rajdhani-SemiBold.ttf);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+        /* background-color: #242329; */ 
+        /* background-image: url(../img/bg.jpg); */
+        /* background: linear-gradient(rgba(19, 18, 18, 0.336), rgba(5, 7, 12, 0.75)),
+            url(../img/R.png); */      
+		background-image: url(../img/bg01.jpg);    
+        
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;         
+    
+}
+
+.verification {
+    position: absolute;
+	top: 10%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+	display: none;
+
+	width: 80px;
+	transition: all 0.25s;
+}
+.container {
+	/* background-color: rgb(37, 35, 35); */
+     background: linear-gradient(rgba(0, 0, 0, 0.336), rgb(0, 0, 0)),
+            url(../img/R.png);
+        
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;         
+    
+	border-radius: 15px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Rajdhani';
+	transition: all 0.25s;
+}
+
+
+
+.header {
+	/* background-color: #4e4e4e; */
+	padding: 20px 40px;
+    text-align: center;
+    color: #fff;
+	transition: all 0.25s;
+}
+
+.header h2 {
+	margin: 0;
+	font-size: 30px;
+	transition: all 0.25s;
+}
+
+.form {
+	padding: 30px 40px;	
+    color: rgb(255, 255, 255);
+	transition: all 0.25s;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+	transition: all 0.25s;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+	
+}
+
+.form-control input {
+	border: 1px solid #838383;
+	border-radius: 5px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    
+    
+    outline: none;
+    padding-block: 5px;
+	transition: all 0.25s;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+	transition: all 0.25s;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+	transition: all 0.25s;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+	transition: all 0.25s;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	transition: all 0.25s;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+	transition: all 0.25s;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+	transition: all 0.25s;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all 0.25s;
+}
+
+.form-control.error small {
+	visibility: visible;
+	transition: all 0.25s;
+}
+
+.form button {
+	background-color: #272927;
+	border: .2px solid #ffffff;
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: inherit;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 50%;
+	cursor: pointer;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    margin-top: 50px;
+	transition: all 0.25s;
+
+	display: none;
+
+}
+
+.form button:hover{
+    background-color: #2b2b2b;
+}
+
+.form button:active{
+    background-color: #0e0e0e;
+    border: .2px solid #00e1ff;
+}
